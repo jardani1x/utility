@@ -1,0 +1,44 @@
+/* Custom styles to match the original image's color scheme */
+
+/* --- Light Mode Custom Colors --- */
+.header-electricity {
+    background-color: #ffff00;
+}
+
+.header-water {
+    background-color: #00b0f0;
+}
+
+.subtotal-row {
+    background-color: #fbe5d6;
+}
+
+/* --- Dark Mode Custom Colors --- */
+[data-bs-theme="dark"] .header-electricity {
+    background-color: #4d4d00;
+    color: #fff;
+}
+
+[data-bs-theme="dark"] .header-water {
+    background-color: #004c66;
+    color: #fff;
+}
+
+[data-bs-theme="dark"] .subtotal-row {
+    background-color: #6c4b37;
+}
+
+/* Styling for the input cells */
+.input-cell {
+    vertical-align: middle;
+}
+
+/* Ensure inputs blend with the table */
+.input-cell .form-control {
+    font-weight: bold;
+    text-align: right;
+    border-width: 2px !important;
+}
+.card {
+    box-shadow: #999 0px 7px 29px 0px !important;
+}
